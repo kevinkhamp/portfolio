@@ -2,7 +2,7 @@ import React from "react";
 import './portfolio.css'
 import Navbar from "../Navbar/Navbar";
 import About from "../About/About";
-import Experience from "../Experience/Experience";
+import Github from "../Github/Github";
 import Contact from "../Contact/Contact";
 
 const Portfolio = () => {
@@ -10,7 +10,7 @@ const Portfolio = () => {
         <>
             {/* <Navbar /> */}
             <About />
-            <Experience />
+            <Github />
             <Contact />
             </>
     )

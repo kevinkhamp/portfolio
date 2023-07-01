@@ -3,15 +3,12 @@ import "./github.css"
 import Card from "react-bootstrap/Card"
 import Button from 'react-bootstrap/Button'
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Github = () => {
     const [avatarURL, setAvatarURL] = useState()
     const [githubName, setGithubName] = useState()
     const [githubBio, setGithutBio] = useState()
-
-    async function repoData() {
-        await fetch('https://api.github.com/users/shimpfierie')
-    }
 
     useEffect(() => {
         fetch('https://api.github.com/users/shimpfierie')
@@ -31,7 +28,7 @@ const Github = () => {
 
     return (
         <div className="flex pl-2 mt-8 justify-start align-start">
-            <div className="experience flex-col p-1 shadow-md justify-end text-center items-center">
+            <div className="experience flex-col p-1 shadow-md justify-end text-center items-center flex-column">
                 <Card style={{width:'18rem' }} >
                     <Card.Img variant="top" src={avatarURL} />
                     <Card.Body>
@@ -39,7 +36,9 @@ const Github = () => {
                         <Card.Text>
                             {githubBio}
                         </Card.Text>
-                        <Button variant='primary'>Repositories</Button>
+                        <Link to='https://github.com/shimpfierie' target="_blank" rel="noopener, noreferrer">
+                            <Button>Github</Button>
+                        </Link>
                     </Card.Body>
                 </Card>
             </div>

@@ -8,11 +8,13 @@ import Contact from "../Contact/Contact";
 const Portfolio = () => {
     return (
         <>
+            <div className="container">
             {/* <Navbar /> */}
             <About />
             <Github />
             <Contact />
-            </>
+            </div>
+        </>
     )
 }
 

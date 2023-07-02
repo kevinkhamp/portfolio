@@ -5,7 +5,7 @@ import './navbar.css'
 const Navbar = () => {
     return (
         <div className='flex'>
-            <div className="container flex bg-zinc-900 absolute inset-y-24 left-0 w-2/12 border-2 border-stone-200">
+            <div className="nav flex bg-zinc-900 absolute left-0 border-2 border-stone-200">
                 <div className="nav-NavLinks flex-col text-stone-200 text-center flex">
                         <NavLink to='/' className="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group m-2 mt-4">
                         <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-stone-200 opacity-[3%]"></span>

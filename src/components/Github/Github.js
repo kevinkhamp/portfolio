@@ -27,9 +27,10 @@ const Github = () => {
     }, [])
 
     return (
-        <div className="flex pl-2 mt-8 justify-start align-start">
-            <div className="experience flex-col p-1 shadow-md justify-end text-center items-center flex-column">
-                <Card style={{width:'18rem' }} >
+        <div className="inline-flex pl-2 mt-8 justify-start align-start">
+            <div className="experience flex-col p-1 shadow-md justify-end text-center items-center flex-column rounded-lg bg-neutral-900">
+                <h1>Github</h1>
+                <Card style={{width:'18rem' }} className='rounded-md bg-neutral-700' >
                     <Card.Img variant="top" src={avatarURL} />
                     <Card.Body>
                         <Card.Title>{githubName}</Card.Title>
@@ -37,7 +38,7 @@ const Github = () => {
                             {githubBio}
                         </Card.Text>
                         <Link to='https://github.com/shimpfierie' target="_blank" rel="noopener, noreferrer">
-                            <Button>Github</Button>
+                            <Button className="rounded-sm">Github</Button>
                         </Link>
                     </Card.Body>
                 </Card>

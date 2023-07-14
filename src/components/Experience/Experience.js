@@ -17,6 +17,8 @@ const Experience = () => {
                     <li><a href="https://github.com/shimpfierie?tab=repositories&amp;q=&amp;language=handlebars" target="_blank" rel="noopener"><i class="devicon-react-original colored"></i> Handlebars</a> & 
                     <a href="https://github.com/shimpfierie?tab=repositories&amp;q=&amp;language=javascript" target="_blank" rel="noopener"><i class="devicon-react-original colored"></i> React</a>
                     </li>
+                    <li>Java</li>
+                    <li>C</li>
                 </ul>
             </div>
         </div>

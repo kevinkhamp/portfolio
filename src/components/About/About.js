@@ -13,7 +13,7 @@ const About = () => {
     );
 
     return(
-        <div className="p-1 justify-end align-end rounded-md border-red-700 bg-neutral-800">
+        <div className="p-1 justify-end align-end rounded-b-md border-red-700 bg-neutral-800">
             <div className="flex-col p-1 m-3 shadow-md justify-end text-center items-center rounded-lg bg-neutral-700">
             <ColoredLine color="red" />
                 <h1 className="text-xl text-neutral-900">About Me</h1>
@@ -27,9 +27,9 @@ const About = () => {
                 <ColoredLine color="red" />
                 <ul>
                     <li>I love to watch movies.</li>
-                    <li>I have managed a gaming community for 5 years and started my own.</li>
-                    <li>I make and edit videos on YouTube and do photography from time to time.</li>
-                    <li>I .</li>
+                    <li>I have managed a gaming community for 5 years and started my own for the past 2 years.</li>
+                    <li>I make and edit videos on YouTube. I also do photography from time to time.</li>
+                    <li></li>
                 </ul>
             </div>
         </div>

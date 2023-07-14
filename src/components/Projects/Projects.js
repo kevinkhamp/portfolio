@@ -22,10 +22,10 @@ const Projects = () => {
             <div className="flex-col p-1 m-3 shadow-md justify-end text-center items-center rounded-lg bg-neutral-700">
                 <p>Projects:</p>
                 <ul>
-                    <li>Bitter</li>
-                    <li>Paws-itive Vibes</li>
-                    <li>Super-Search</li>
-                    <li>TindUwU (Ongoing)</li>
+                    <li><a href="https://bitterbitter-205aa32f474c.herokuapp.com/" target="_blank" rel="noopener">Bitter</a></li>
+                    <li><a href="https://paws-tive-c32df2c49a99.herokuapp.com/" target="_blank"  rel="noopener">Paws-itive Vibes</a></li>
+                    <li><a href="https://github.com/shimpfierie/super-team-proj" target="_blank"  rel="noopener">Super-Search(Repo Only)</a></li>
+                    <li><a href="https://github.com/shimpfierie/TindUwU" target="_blank" rel="noopener">TindUwU (Ongoing)</a></li>
                     <li></li>
                     <li></li>
                 </ul>

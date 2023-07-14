@@ -18,7 +18,7 @@ const About = () => {
             <ColoredLine color="red" />
                 <h1 className="text-xl text-neutral-900">About Me</h1>
                 <ColoredLine color="red" />
-                <p>I am a software developer.</p>
+                <p>I am a full-stack software developer with some knowledge of C and Java.</p>
                 <p>Attended and graduated from Kennesaw State University with a B.S. in Media & Entertainment. While attending KSU, I consistently achieved the President's and Dean's List.</p>
                 <p>I also attended and graduated from Georgia Tech's Full-Stack Coding Bootcamp. Not only was I studious, I helped my classmates debug their code.</p>
                 <p>As an average human, I like to have fun! I want to try new and different methods and gimmicks in my products.</p>
@@ -26,10 +26,10 @@ const About = () => {
                 <h1 className="text-xl text-neutral-900">Hobbies & Interests</h1>
                 <ColoredLine color="red" />
                 <ul>
-                    <li>I love to watch movies. I remember going to an early screening of Godzilla: King of the Monsters.</li>
-                    <li>I was a chronic Destiny 2 player but now I'm free. I played Destiny for 9 years with more than 10,000 hours logged from Destiny 1 to current date.</li>
-                    <li>I make videos on YouTube and do photography from time to time.</li>
-                    <li>I like to make gimmicks. Currently, I am in the process of making a Tinder clone.</li>
+                    <li>I love to watch movies.</li>
+                    <li>I have managed a gaming community for 5 years and started my own.</li>
+                    <li>I make and edit videos on YouTube and do photography from time to time.</li>
+                    <li>I .</li>
                 </ul>
             </div>
         </div>

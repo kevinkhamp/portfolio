@@ -17,7 +17,7 @@ const Projects = () => {
     }, [])
 
     return (
-        <div className="inline-flex p-1 mt-8 justify-end align-end rounded-md bg-neutral-800">
+        <div className="inline-flex p-1 mt-4 justify-end align-end rounded-md bg-neutral-800">
             
             <div className="flex-col p-1 m-3 shadow-md justify-end text-center items-center rounded-lg bg-neutral-700">
                 <p>Projects:</p>

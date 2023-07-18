@@ -27,7 +27,7 @@ const Github = () => {
     }, [])
 
     return (
-        <div className="inline-flex pl-2 mt-8 justify-center">
+        <div className="inline-flex pl-2 mt-4 justify-center">
             <div className="experience flex-col p-1 shadow-md text-center items-center flex-column rounded-lg bg-neutral-900">
                 <h1>Github</h1>
                 <Card style={{width:'18rem' }} className='rounded-md bg-neutral-700' >

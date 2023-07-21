@@ -11,7 +11,7 @@ const Github = () => {
     const [githubBio, setGithutBio] = useState()
 
     useEffect(() => {
-        fetch('https://api.github.com/users/shimpfierie')
+        fetch('https://api.github.com/users/kevinkhamp')
         .then((res) => res.json())
         .then(
             (result) => {
@@ -37,7 +37,7 @@ const Github = () => {
                         <Card.Text>
                             {githubBio}
                         </Card.Text>
-                        <Link to='https://github.com/shimpfierie' target="_blank" rel="noopener, noreferrer">
+                        <Link to='hhttps://github.com/kevinkhamp' target="_blank" rel="noopener, noreferrer">
                             <Button className="mb-4 text-neutral-50">Github</Button>
                         </Link>
                     </Card.Body>

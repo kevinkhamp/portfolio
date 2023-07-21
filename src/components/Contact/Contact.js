@@ -23,7 +23,7 @@ const Contact = () => {
             <div className="col">
                 <ul>
                     <li><a href="https://www.linkedin.com/in/kevin-khamp/" target="_blank" rel="noopener">LinkedIn</a></li>
-                    <li><a href="https://github.com/shimpfierie" target="_blank" rel="noopener">Github</a></li>
+                    <li><a href="https://github.com/kevinkhamp" target="_blank" rel="noopener">Github</a></li>
                     <li><a onClick={() => window.location = 'mailto:khampkevin@gmail.com'}>Email</a></li>
                 </ul>
             </div>

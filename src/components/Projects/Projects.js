@@ -24,8 +24,8 @@ const Projects = () => {
                 <ul>
                     <li><a href="https://bitterbitter-205aa32f474c.herokuapp.com/" target="_blank" rel="noopener">Bitter</a></li>
                     <li><a href="https://paws-tive-c32df2c49a99.herokuapp.com/" target="_blank"  rel="noopener">Paws-itive Vibes</a></li>
-                    <li><a href="https://github.com/shimpfierie/super-team-proj" target="_blank"  rel="noopener">Super-Search(Repo Only)</a></li>
-                    <li><a href="https://github.com/shimpfierie/TindUwU" target="_blank" rel="noopener">TindUwU (Ongoing)</a></li>
+                    <li><a href="https://github.com/kevinkhamp/super-team-proj" target="_blank"  rel="noopener">Super-Search(Repo Only)</a></li>
+                    <li><a href="https://github.com/kevinkhamp/TindUwU" target="_blank" rel="noopener">TindUwU (Ongoing)</a></li>
                     <li></li>
                     <li></li>
                 </ul>
